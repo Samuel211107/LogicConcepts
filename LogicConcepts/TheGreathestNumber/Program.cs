@@ -1,26 +1,27 @@
 ﻿using Shared;
 
-
 var answer = string.Empty;
 var options = new List<string> { "s", "n" };
 
 do
 {
-    var number = ConsoleExtension.GetInt("Ingresa un número entero diferente de cero: ");
-    if (number == 0)
-    {
-        continue;
-    }
+    Console.WriteLine("Ingrese 3 números diferentes");
+    var a = ConsoleExtension.GetInt("Ingrese el primer número: ");
+    var b = ConsoleExtension.GetInt("Ingrese el segundo número: ");
+    var c = ConsoleExtension.GetInt("Ingrese el tercer número: ");
 
-    if (number % 2 == 0)
+    if (a > b && a > c)
     {
-        Console.WriteLine($"El número {number} es par.");
+        Console.WriteLine($"El número mayor es: {a}");
+    }
+    else if (b > a && b > c)
+    {
+        Console.WriteLine($"El número mayor es: {b}");
     }
     else
     {
-        Console.WriteLine($"El número {number} es impar.");
+        Console.WriteLine($"El número mayor es: {c}");
     }
-
 
     do
     {
