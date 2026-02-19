@@ -44,6 +44,9 @@
   <Folder Name="/15/">
     <Project Path="TaylorModified/TaylorModified.csproj" Id="b1bbf7f4-313f-42c4-9795-f3fbd07eb437" />
   </Folder>
+  <Folder Name="/16/">
+    <Project Path="QuadraticEquations/QuadraticEquations.csproj" Id="c77f5b10-7ae3-470b-a80a-0685ed1d6ded" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" Id="30d66395-9960-483c-aa11-a7040e8d8b69" />
   </Folder>
